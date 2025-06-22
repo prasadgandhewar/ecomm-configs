@@ -5,4 +5,4 @@ spring:
     username: root
     password: secret
 user-config:
-  count: 10
+  count: 20
