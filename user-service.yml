@@ -1,5 +1,6 @@
 user:
   count: 84
+  test: 0000
 server:
   port: 8000
 spring:
