@@ -4,8 +4,6 @@ user:
 server:
   port: 8100
 spring:
-  config:
-    import: optional:configserver:http://localhost:8500
   datasource:
     url: jdbc:mysql://localhost:3306/userdb
     username: root
