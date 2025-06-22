@@ -1,0 +1,8 @@
+user:
+  count: 000
+  test: 0000
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/userdb
+    username: root
+    password: secret
