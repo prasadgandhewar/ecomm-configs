@@ -1,6 +1,8 @@
 user:
   count: 940
   test: 950
+server:
+  port:8100
 spring:
   datasource:
     url: jdbc:mysql://localhost:3306/userdb
