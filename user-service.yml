@@ -1,5 +1,5 @@
 user:
-  count: 9099
+  count: 9
   spring:
     datasource:
       url: jdbc:mysql://localhost:3306/userdb
