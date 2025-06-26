@@ -2,6 +2,11 @@ user:
   count: 000
   test: 0000
 spring:
+  redis:
+    host: localhost
+    port: 6379
+  cache:
+    type: none
   kafka:
     bootstrap-servers: localhost:9092
     consumer:
