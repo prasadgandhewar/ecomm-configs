@@ -9,7 +9,7 @@ spring:
       reactive: false
       contact-points: localhost
       port: 9042
-      keyspace-name: order_keyspace
+      keyspace-name: order_keyspace_2
       local-datacenter: datacenter1
       schema-action: create_if_not_exists
 #eureka:
