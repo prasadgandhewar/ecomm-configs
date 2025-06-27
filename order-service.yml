@@ -6,10 +6,10 @@ server:
 spring:
   data:
     cassandra:
-      reactive: false
+      reactive: true
       contact-points: localhost
       port: 9042
-      keyspace-name: order_keyspace_2
+      keyspace-name: order_keyspace
       local-datacenter: datacenter1
       schema-action: create_if_not_exists
 #eureka:
