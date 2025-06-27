@@ -6,8 +6,8 @@ server:
 spring:
   data:
     cassandra:
-      reactive: true
-      contact-points: localhost
+      reactive: false
+      contact-points: 127.0.0.1
       port: 9042
       keyspace-name: order_keyspace
       local-datacenter: datacenter1
