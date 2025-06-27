@@ -4,10 +4,13 @@ user:
 server:
   port: 8100
 spring:
-  datasource:
-    url: jdbc:mysql://localhost:3306/userdb
-    username: root
-    password: secret
+  data:
+    cassandra:
+      contact-points: localhost
+      port: 9042
+      keyspace-name: order_keyspace
+      local-datacenter: datacenter1
+      schema-action: create_if_not_exists
 #eureka:
 #  client:
 #    serviceUrl:
