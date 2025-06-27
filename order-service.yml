@@ -6,6 +6,7 @@ server:
 spring:
   data:
     cassandra:
+      reactive: false
       contact-points: localhost
       port: 9042
       keyspace-name: order_keyspace
