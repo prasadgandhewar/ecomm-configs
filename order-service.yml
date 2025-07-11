@@ -2,7 +2,7 @@ user:
   count: 940
   test: 950
 server:
-  port: 8100
+  port: 8200
 spring:
   data:
     mongodb:
