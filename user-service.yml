@@ -6,8 +6,8 @@ server:
 spring:
   datasource:
     url: jdbc:postgresql://postgresdb:5433/userdb
-    username: user
-    password: pass
+    username: ecommAppUser
+    password: ecommApp@1122
     driver-class-name: org.postgresql.Driver
 
   jpa:
