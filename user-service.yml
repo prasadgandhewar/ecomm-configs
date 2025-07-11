@@ -5,7 +5,7 @@ server:
   port: 8000
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5433/userdb
+    url: jdbc:postgresql://postgresdb:5433/userdb
     username: user
     password: pass
     driver-class-name: org.postgresql.Driver
