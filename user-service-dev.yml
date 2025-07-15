@@ -1,2 +1,25 @@
 user:
-  count: 20
+  count: 84
+  test: 883747
+server:
+  port: 8000
+spring:
+  datasource:
+    url: jdbc:postgresql://${USER_DB_HOST:localhost}:5433/userdb
+    username: ${USER_DB_USERNAME:user}
+    password: ${USER_DB_PASSWORD:pass}
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+
+#eureka:
+#  client:
+#    serviceUrl:
+#      defaultZone: http://localhost:8761/eureka
+#  instance:
+#    prefer-ip-address: true
+#    ip-address: 127.0.0.1

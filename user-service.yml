@@ -5,9 +5,9 @@ server:
   port: 8000
 spring:
   datasource:
-    url: jdbc:postgresql://postgresdb:5433/userdb
-    username: ecommAppUser
-    password: ecommApp@1122
+    url: jdbc:postgresql://${USER_DB_HOST:localhost}:5433/userdb
+    username: ${USER_DB_USERNAME:user}
+    password: ${USER_DB_PASSWORD:pass}
     driver-class-name: org.postgresql.Driver
 
   jpa:
