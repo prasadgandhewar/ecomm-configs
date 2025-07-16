@@ -6,9 +6,9 @@ server:
 spring:
   data:
     mongodb:
-      uri: mongodb://${ORDER_DB_USERNAME:root}:${MONGO_PASS:mongopass}@${ORDER_DB_HOST:localhost}:27017/orderdb
+      uri: mongodb://${ORDER_DB_USERNAME:}:${MONGO_PASS:}@${ORDER_DB_HOST:localhost}:27017/orderdb
 
-#eureka:
+#eureka:  
 #  client:
 #    serviceUrl:
 #      defaultZone: http://localhost:8761/eureka
