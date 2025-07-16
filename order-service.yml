@@ -6,7 +6,7 @@ server:
 spring:
   data:
     mongodb:
-      uri: mongodb://mongodb:27017/orderdb
+      uri: mongodb://localhost:27017/orderdb
 
 #eureka:  
 #  client:
