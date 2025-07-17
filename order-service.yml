@@ -3,11 +3,13 @@ user:
   test: 950
 server:
   port: 8200
-# spring:
-#   data:
-#     mongodb:
-#       uri: mongodb://localhost:27017/orderdb
-
+spring:
+  data:
+    mongodb:
+      uri: mongodb://${ORDER_DB_HOST:root}:${MONGO_PASS:mongopass}@${ORDER_DB_HOST:localhost}:27017/orderdb
+product:
+  service:
+    url: http://${PRODUCT_SERVICE_NAME:localhost}:8300
 #eureka:  
 #  client:
 #    serviceUrl:
